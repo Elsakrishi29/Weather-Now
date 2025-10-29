@@ -1,0 +1,73 @@
+.weather-container {
+  min-height: 100vh;              
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;   
+  transition: background-image 0.8s ease-in-out;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* default fallback */
+.default-bg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmKo0zm9wqbONJc6pSGZ9BfToqxlY0lO4LGsEzndmIQ34LoRDlvzuF41X6hIdvGLxZnrs&usqp=CAU");
+}
+
+/* cold */
+.cold-bg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9AXGuw_qFXZk1ZnLelBLj3KdAdWslzqP5mg&s");
+}
+
+/* warm */
+.warm-bg {
+  background-image: url("https://www.shutterstock.com/image-photo/bottomup-view-green-mangrove-forest-260nw-2505695203.jpg");
+}
+
+/* very hot */
+.veryhot-bg {
+  background-image: url("https://thumbs.dreamstime.com/b/hot-weather-25574291.jpg");
+}
+
+/* hot */
+.hot-bg {
+  background-image: url("https://images.unsplash.com/photo-1632094179043-cbdddb1794b0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8");
+}
+
+input {
+	padding: 6px 20px 6px 20px;
+	font-size: 1rem;
+	background-color: whitesmoke;
+	border: 3px;
+	font-family: serif;
+	border-radius: 4px;
+}
+
+button {
+	padding: 6px 20px 6px 20px;
+	font-family: monospace;
+	font-size: 1rem;
+	border-radius: 4px;
+}
+
+.search-btn{
+	margin-top: 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.search-btn:hover{
+	background-color: #0056b3;
+}
+
+.error-text{
+	color:red;
+	font-weight: bold;
+}
