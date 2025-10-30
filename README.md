@@ -23,7 +23,7 @@ curl https://geocoding-api.open-meteo.com/v1/search?name=Berlin&count=10&languag
 ```bash
 # Open Command Prompt or git bash Terminal
 npm install
-npm startg
+npm start
 
 # Access
 http://localhost:3000
