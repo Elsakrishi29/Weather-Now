@@ -18,7 +18,7 @@ npx create-react-app weather-now
 curl https://geocoding-api.open-meteo.com/v1/search?name=Berlin&count=10&language=en&format=json
 ```
 
-## Run & Access the App
+## Run & Access the App (Local Testing)
 
 ```bash
 # Open Command Prompt or git bash Terminal
@@ -27,4 +27,16 @@ npm start
 
 # Access
 http://localhost:3000
+```
+
+## Run the application using stackblitz
+
+```bash
+cd /home/projects/aoniqgnjap.github
+cd weather-now
+npm install
+
+npm start
+
+# Its automatically redirect by https://aoniqgnjapgithub-mojh--3000--cf284e50.local-credentialless.webcontainer.io/
 ```
